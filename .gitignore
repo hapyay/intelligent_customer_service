@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Environment files (包含敏感信息，不要提交)
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database (本地数据库文件)
+*.db
+*.db-journal
+*.db-wal
+data/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Trae IDE
+.trae/
+
+# Package locks (可选)
+# package-lock.json
+# yarn.lock
