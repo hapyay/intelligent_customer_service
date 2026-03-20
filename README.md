@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 智灵客服 - 智能客服系统
 
 一个基于 AI 的智能客服系统，支持智能问答、自动工单生成、多轮对话等功能。
@@ -13,6 +12,7 @@
 ## 技术栈
 
 ### 前端
+
 - React 18 + Vite
 - Tailwind CSS
 - Framer Motion (动画)
@@ -20,6 +20,7 @@
 - Axios (HTTP 客户端)
 
 ### 后端
+
 - Node.js + Express
 - SQLite (better-sqlite3)
 - DeepSeek API (大语言模型)
@@ -76,12 +77,14 @@ npm install
 ### 配置环境变量
 
 1. 复制环境变量模板：
+
 ```bash
 cd backend
 cp .env.example .env
 ```
 
 2. 编辑 `.env` 文件，填入你的 API Key：
+
 ```env
 DEEPSEEK_API_KEY=your_api_key_here
 PORT=3000
@@ -108,18 +111,21 @@ npm run dev
 ## 页面说明
 
 ### 1. 展示页 (/)
+
 - 品牌展示区
 - 3D 动画机器人形象
 - 核心功能卡片
 - CTA 按钮
 
 ### 2. 对话页 (/chat)
+
 - AI 客服对话窗口
 - 快捷问题面板
 - 实时消息气泡
 - 工单创建提示
 
 ### 3. 后台管理页 (/admin)
+
 - 工单列表
 - 工单详情
 - 对话记录查看
@@ -177,24 +183,6 @@ GET /api/admin/stats      # 获取统计数据
 }
 ```
 
-## 求职展示亮点
-
-1. **现代化技术栈** - React 18 + Vite + Tailwind
-2. **AI 能力集成** - Function Calling 实现结构化输出
-3. **完整业务闭环** - 对话 → 工单 → 管理
-4. **良好代码组织** - 模块化、可维护
-
-## 扩展方向
-
-- [ ] 多模型支持（支持切换不同大模型）
-- [ ] 知识库接入（RAG 增强回答质量）
-- [ ] 用户认证系统
-- [ ] WebSocket 实时通知
-- [ ] 数据分析面板
-
 ## License
 
-MIT
-=======
-# intelligent_customer_service
->>>>>>> eb091c329d633fc670052cbf3103efaefca941e6
+Apache-2.0
