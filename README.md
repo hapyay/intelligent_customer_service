@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 智灵客服 - 智能客服系统
 
 一个基于 AI 的智能客服系统，支持智能问答、自动工单生成、多轮对话等功能。
@@ -194,3 +195,6 @@ GET /api/admin/stats      # 获取统计数据
 ## License
 
 MIT
+=======
+# intelligent_customer_service
+>>>>>>> eb091c329d633fc670052cbf3103efaefca941e6
